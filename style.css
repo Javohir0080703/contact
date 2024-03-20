@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  user-select: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #f6f9fa;
+  margin-bottom: 48px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-web-cods {
+  width: 100%;
+  max-width: 180px;
+  color: #394867;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 8px 13px;
+  background-color: transparent;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid #394867;
+  border-radius: 12px;
+}
+
+.header-logo {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #212a3e;
+  text-decoration: none;
+}
+
+.header-dark-mod {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #394867;
+  background-color: transparent;
+  border: 1px solid #394867;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 8px 13px;
+}
+
+/* main */
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-left{
+  position: sticky;
+
+}
+/* left */
+.main-left-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #212a3e;
+  margin-bottom: 20px;
+}
+
+.main-left-profile {
+  width: 100%;
+  max-width: 380px;
+  border: 1px transparent solid;
+  border-radius: 20px;
+  background-color: #394867;
+}
+
+.main-profile-input {
+  display: none;
+}
+
+.main-profile-photo {
+  background-color: #394867;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 29px 0px 44px 0px;
+}
+.main-profile-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.profile-img-input {
+  position: absolute;
+  padding: 8px 10px;
+  background-color: #fff;
+  border: 4px solid #394867b2;
+  border-radius: 999px;
+  cursor: pointer;
+  top: 104px;
+  right: 118px;
+}
+
+.profile-form {
+  padding: 16px;
+  background-color: #f6f9fa;
+  border-radius: 20px;
+}
+.profile-form-div {
+  display: flex;
+  align-items: center;
+  border: 2px solid #394867;
+  border-radius: 8px;
+}
+.profile-form-div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.profele-form-label {
+}
+
+.profile-form-input {
+  width: 100%;
+  border: 1px solid transparent;
+  background-color: transparent;
+  padding: 8px 0 8px 8px;
+}
+
+input{
+  outline: none;
+}
+
+.profile-form-textarea {
+  border-color: transparent;
+  background-color: transparent;
+  width: 100%;
+  max-height: 36px;
+  min-height: 36px;
+  padding: 8px;
+  overflow: hidden;
+  min-width: 309px;
+}
+
+.profile-form-button {
+  width: 100%;
+  max-width: 348px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #394867;
+  border-color: transparent;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 144px 8px 0px;
+}
+
+/* right */
+.mein-right-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #212a3e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-right {
+  width: 100%;
+  max-width: 836px;
+}
+.contact-top-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.contact-top-profile-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #212a3e;
+}
+.contact-top-profile-btn {
+  background-color: transparent;
+  border: 2px solid #394867;
+  border-radius: 999px;
+}
+.contact-top-profile-btn-img {
+  width: 39px;
+  height: 40px;
+}
+
+.main-profile {
+  background-color: #f6f9fa;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.main-contact-right-search {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 2px solid #394867;
+}
+.main-contact-right-search-label {
+}
+.main-contact-right-search-input {
+  width: 100%;
+  padding: 8px ;
+  background-color: transparent;
+  border: transparent;
+}
