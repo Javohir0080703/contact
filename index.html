@@ -53,7 +53,10 @@
                 </div>
               </div>
             </div>
-            <form class="profile-form" onsubmit="getRegister()">
+            <form
+              class="profile-form"
+              onsubmit="event.preventDefault(); getRegister();"
+            >
               <div class="profile-form-div">
                 <label class="profele-form-label">
                   <svg
@@ -162,8 +165,9 @@
                 </label>
                 <input
                   class="profile-form-input getInputValue"
-                  type="tel"
+                  type="number"
                   placeholder="Telefon raqam"
+                  style="appearance: none;"
                 />
               </div>
               <div class="profile-form-div">
@@ -227,6 +231,7 @@
                   cols="30"
                   rows="10"
                   placeholder="Qo’shimcha  ma’lumot"
+                  style="resize: none;"
                 ></textarea>
               </div>
 
