@@ -146,17 +146,18 @@ function displayData(mappedData) {
   // inputs[4].value = "";
 }
 
+function handleChosenBtnClick(event) {
+  const rightDivBtnImg = event.currentTarget.querySelector("img");
+  console.log(1);
+  if (rightDivBtnImg.src.includes("star.svg")) {
+    rightDivBtnImg.src = "./img/star2.svg";
+  } else {
+    rightDivBtnImg.src = "./img/star.svg";
+  }
+}
+
 chosenBtn.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    // const rightDivBtnImg = btn.querySelector("img");
-    // alert(1)
-    console.log(1);
-    // if (rightDivBtnImg.src.includes("star.svg")) {
-    //   rightDivBtnImg.src = "./img/star2.svg";
-    // } else {
-    //   rightDivBtnImg.src = "./img/star.svg";
-    // }
-  });
+  btn.addEventListener("click", handleChosenBtnClick);
 });
 
 // regex
