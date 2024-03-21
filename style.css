@@ -72,9 +72,8 @@
   display: flex;
   justify-content: space-between;
 }
-.main-left{
+.main-left {
   position: sticky;
-
 }
 /* left */
 .main-left-title {
@@ -145,7 +144,7 @@
   padding: 8px 0 8px 8px;
 }
 
-input{
+input {
   outline: none;
 }
 
@@ -223,11 +222,61 @@ input{
   width: 100%;
   border: 2px solid #394867;
 }
-.main-contact-right-search-label {
-}
 .main-contact-right-search-input {
   width: 100%;
-  padding: 8px ;
+  padding: 8px;
   background-color: transparent;
   border: transparent;
+}
+.contact-li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-user {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #212a3e;
+  margin-bottom: 8px;
+}
+.contact-user:not(:last-child) {
+  margin-right: 5px;
+}
+.leftDivrightUserName {
+  display: flex;
+  align-items: center;
+}
+.phoneNumberElement {
+  font-size: 16px;
+  line-height: 20px;
+  color: #394867;
+}
+
+.leftDiv {
+  display: flex;
+  align-items: center;
+}
+
+.leftDivBtn {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.leftDivBtnImg {
+  width: 80px;
+  height: 80px;
+  margin-right: 12px;
+}
+.rightDivBtn {
+  background-color: transparent;
+  border-color: transparent;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.rightDivBtnDropDovw {
+  background-color: transparent;
+  border-color: transparent;
 }
